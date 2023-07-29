@@ -1,0 +1,290 @@
+.home1{
+   width:auto;
+   min-height:350vh;
+   margin:-3px;
+background-image: linear-gradient(rgba(52, 61, 94, 0.7),rgba(4,9,30,0.7)),url(img1.jpg);
+}
+.navbar1{
+    display:flex;
+    position:sticky;
+    /* background-color: red; */
+    top:3%;
+    width:30%;
+    float:right;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color:white;
+}
+.nav1{
+    margin:3%;
+    color:white;
+    position:static;
+   
+    /* background-color: rgb(135, 131, 179); */
+    border-radius:10%;
+    color:white;
+    font-size:large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+    background-color: rgb(36, 248, 86);
+    border-radius: 10%;
+}
+.head2 {
+    position: absolute;
+    top:35%;
+    left:30%;
+    color:#ffffff;
+    font-size:large;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#he2{
+    position: absolute;
+    top:55%;
+    color:white;  
+}
+h1 b{
+    font-size: 4.5rem;
+}
+.head11{
+    position: absolute;
+    width: 1200px;
+    position: absolute;
+    top:20%;
+    left:33%;
+    right:30%;
+    /* background-color: aqua; */
+    color:rgb(255, 255, 255);
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.heading11{
+    display:flex;
+    flex-wrap:wrap;
+}
+#card1{
+    position:absolute;
+    top:70%;
+    left:5%;
+}
+#card2{
+    position:absolute;
+    left:29%;
+    top:70%;
+    
+}
+#card3{
+    position:absolute;
+    left:52%;
+    top:70%;
+}
+#card4{
+    position:absolute;
+    left:75%;
+    top:70%;
+    
+}
+
+
+#card5{
+    position:absolute;
+    top:155%;
+    left:5%;
+}
+#card6{
+    position:absolute;
+    left:29%;
+    top:155%;
+    
+}
+#card7{
+    position:absolute;
+    left:52%;
+    top:155%;
+}
+#card8{
+    position:absolute;
+    left:75%;
+    top:155%;
+    
+}
+
+#card9{
+    position:absolute;
+    top:240%;
+    left:5%;
+}
+#card10{
+    position:absolute;
+    left:29%;
+    top:240%;
+    
+}
+#card11{
+    position:absolute;
+    left:52%;
+    top:240%;
+}
+#card12{
+    position:absolute;
+    left:75%;
+    top:240%;
+    
+}
+.card{
+    height:450px;
+}
+#carouselExample{
+    position: relative;
+    top:380px;
+    /* background-color: aqua; */
+    height:500px;
+}
+
+#para11{
+    display:flex;
+    align-items: center;
+    width:540px;
+    position: absolute;
+    top:320%;
+    left:37%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: rgb(127, 255, 140); */
+}
+#para12{
+    width:450px;
+    position: absolute;
+    left:45%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: aquamarine; */
+    top:325%;
+}
+#para13{
+    width:450px;
+    position: absolute;
+    left:43%;
+    top:330%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: rgb(127, 129, 255); */
+}
+.footer11{
+color:rgb(255, 255, 255);
+font-size: large;
+}
+.inner_button{
+    position:absolute;
+    top:65%;
+    
+    
+}
+#movies_button{
+    top:55%;
+    left:7%;
+}
+#movies_button button{
+    background-color: #98f92a;
+    border-radius: 5%;
+    width:200px;
+    height:70px;
+    color: rgb(255, 255, 255);
+    
+}
+
+#series_button :hover{
+    color:rgb(255, 254, 254);
+    padding:-1px;
+    background-color: rgb(89, 197, 236);
+}
+#animes_button :hover{
+    color:rgb(255, 254, 254);
+    padding:-1px;
+    background-color: rgb(89, 197, 236);
+    
+}
+#movies_button :hover{
+    color:rgb(255, 254, 254);
+    background-color: rgb(89, 197, 236);
+    
+}
+#series_button{
+    left:7%;
+    top:140%;
+    
+}
+#series_button button{
+    background-color: #98f92a;
+    border-radius: 5%;
+    left:7%;
+    width:200px;
+    height:70px;
+    color: white;
+}
+
+#animes_button{
+    left:7%;
+    top:225%;
+}
+#animes_button button{
+    background-color: #98f92a;
+    border-radius: 5%;
+    left:64%;
+    width:200px;
+    height:70px;
+    color: white;
+}
+
+
+/* Search Button */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .searchh{
+    width:400px;
+    position:absolute;
+    top:43%;
+    left:37%;
+    height:35px; 
+}
+
+
+/* Corousel code */
